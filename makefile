@@ -20,3 +20,4 @@ clean:
 
 git-add:
 	git add makefile *.c *.h
+

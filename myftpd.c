@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-void mainDaemon()
+void makeDaemon()
 {
 	pid_t pid;
 	if((pid = fork()) < 0)
